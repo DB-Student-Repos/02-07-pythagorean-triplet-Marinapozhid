@@ -1,7 +1,7 @@
 def triplets_with_sum(number):
 
     triplets = []
-    for a in range(1, number - 3):
+    for a in range(1, number // 3):
         ''' b^2 = c^2 - a^2 and c = number - a - b 
         b^2 = (number - a - b)^2 - a^2
         b^2 = (number - a)^2 - 2(number - a)b + b^2 - a^2
